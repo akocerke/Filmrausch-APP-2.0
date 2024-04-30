@@ -1,4 +1,4 @@
-# FilmRausch
+# FilmRausch-APP-2.0
 
 ## Inhaltsverzeichnis
 
