@@ -1,0 +1,44 @@
+.loginbar {
+  display: flex;
+  justify-content: flex-end; /* Buttons rechts ausrichten */
+  align-items: center;
+  padding: 0.7%;
+  padding-right: 2%;
+  padding-top: 1%;
+}
+
+.loginButton, .registerButton {
+  padding: 0.5% 1%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 0.3%; /* Abstand zwischen den Buttons */
+}
+
+.registerButton {
+  background-color: #28a745;
+}
+.registerButton:hover{
+  background-color: #0c7d26;
+}
+
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
+
+.logoutButton {
+  padding: 0.5% 1%;
+  background-color: #dc3545; /* Farbe für Logout-Button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 0.3%; /* Abstand zwischen den Buttons */
+}
+
+.logoutButton:hover {
+  background-color: #c82333; /* Farbe für Hover-Effekt */
+}

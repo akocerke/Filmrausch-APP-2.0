@@ -1,0 +1,8 @@
+.mainContainer {
+    width: 100%;
+    height: auto;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
