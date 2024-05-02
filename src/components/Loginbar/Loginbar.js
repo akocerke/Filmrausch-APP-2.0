@@ -4,7 +4,7 @@ import LoginPopup from "./LoginPopup";
 import RegisterPopup from "./RegisterPopup";
 import styles from "./Loginbar.module.css";
 import { useAuth } from '../../auth/AuthContext'; // Pfad anpassen
-import {logout as apiLogout} from '../../apiUser';
+import {logout as apiLogout} from '../../api/apiUser';
 import {jwtDecode} from 'jwt-decode';
 
 

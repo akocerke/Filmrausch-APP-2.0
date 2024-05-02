@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./ActorCarouselTV.module.css";
-import { fetchSeriesActors } from "../../apiService";
+import { fetchSeriesActors } from "../../api/apiService";
 
 const ActorCarouselTV = ({ seriesId }) => {
   const [actors, setActors] = useState([]);

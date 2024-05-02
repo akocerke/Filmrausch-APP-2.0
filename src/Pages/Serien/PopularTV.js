@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { fetchSeries } from "../../../src/apiService";
+import { fetchSeries } from "../../api/apiService";
 import Content from "../../components/Content/Content";
 import styles from "./Serien.module.css"
 
