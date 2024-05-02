@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { fetchMovies } from "../../../src/apiService";
+import { fetchMovies } from "../../api/apiService";
 import Content from "../../components/Content/Content";
 import styles from "./FilmeCarrusel.module.css";
 

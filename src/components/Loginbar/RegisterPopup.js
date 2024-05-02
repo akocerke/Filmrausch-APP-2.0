@@ -1,7 +1,7 @@
 // RegisterPopup.js
 import React, { useState } from "react";
 import styles from "./Popup.module.css";
-import { register } from "../../apiUser";
+import { register } from "../../api/apiUser";
 
 const RegisterPopup = ({ onClose, showLoginPopup }) => {
   const [username, setUsername] = useState("");

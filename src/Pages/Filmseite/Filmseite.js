@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { fetchMovieDetails } from "../../../src/apiService";
-import { addFavorite, deleteFavoritesByUserId, getFavoritesByUserId } from "../../apiUser";
+import { fetchMovieDetails } from "../../api/apiService";
+import { addFavorite, deleteFavoritesByUserId, getFavoritesByUserId } from "../../api/apiUser";
 import styles from "./Filmseite.module.css";
 import Content from "../../components/Content/Content";
 import ActorCarousel from "./ActorCarousel";

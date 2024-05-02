@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { fetchMovieTrailer } from "../../apiService";
+import { fetchMovieTrailer } from "../../api/apiService";
 import styles from "./TrailerPopup.module.css";
 
 const TrailerPopup = ({ movieId, onClose }) => {

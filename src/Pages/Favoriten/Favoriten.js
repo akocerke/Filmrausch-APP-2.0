@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getFavoritesByUserId, deleteFavoritesByUserId } from "../../apiUser";
-import { fetchMovieDetails, fetchSeriesDetails } from "../../apiService";
+import { getFavoritesByUserId, deleteFavoritesByUserId } from "../../api/apiUser";
+import { fetchMovieDetails, fetchSeriesDetails } from "../../api/apiService";
 import Content from "../../components/Content/Content";
 import styles from "./Favoriten.module.css";
 import { jwtDecode } from "jwt-decode";

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./ActorCarousel.module.css";
-import { fetchMovieActors } from "../../apiService";
+import { fetchMovieActors } from "../../api/apiService";
 
 const ActorCarousel = ({ movieId }) => {
   const [actors, setActors] = useState([]);
